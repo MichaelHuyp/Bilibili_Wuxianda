@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPBangumiContentTableSectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_subregion_live" translatesAutoresizingMaskIntoConstraints="NO" id="1Tp-aO-AVs">
+                    <rect key="frame" x="8" y="290" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="mDP-IE-0un"/>
+                        <constraint firstAttribute="height" constant="20" id="r87-jU-2BQ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jza-iC-CPK">
+                    <rect key="frame" x="36" y="292" width="56" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_rightArrowShadow" translatesAutoresizingMaskIntoConstraints="NO" id="8R2-0T-sAV">
+                    <rect key="frame" x="572" y="290" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="TV8-x6-f97"/>
+                        <constraint firstAttribute="height" constant="20" id="hbF-uj-UcU"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日更新 xx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0q-KQ-1R4">
+                    <rect key="frame" x="489" y="292" width="75" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8R2-0T-sAV" secondAttribute="trailing" constant="8" id="1Ni-2e-PcL"/>
+                <constraint firstItem="8R2-0T-sAV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PfF-s3-9gL"/>
+                <constraint firstItem="8R2-0T-sAV" firstAttribute="leading" secondItem="w0q-KQ-1R4" secondAttribute="trailing" constant="8" id="QhL-bB-y0Q"/>
+                <constraint firstItem="1Tp-aO-AVs" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="S4f-Rk-4Z5"/>
+                <constraint firstItem="jza-iC-CPK" firstAttribute="leading" secondItem="1Tp-aO-AVs" secondAttribute="trailing" constant="8" id="ZJw-fh-2vn"/>
+                <constraint firstItem="1Tp-aO-AVs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="ZQ3-Ig-gda"/>
+                <constraint firstItem="w0q-KQ-1R4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="gWj-qj-dsV"/>
+                <constraint firstItem="jza-iC-CPK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hHk-QN-E6p"/>
+            </constraints>
+            <connections>
+                <outlet property="arrowImageView" destination="8R2-0T-sAV" id="NZV-kt-jn1"/>
+                <outlet property="detailLabel" destination="w0q-KQ-1R4" id="Si0-9P-86C"/>
+                <outlet property="iconImageView" destination="1Tp-aO-AVs" id="Vg7-tM-xgB"/>
+                <outlet property="titleLabel" destination="jza-iC-CPK" id="amY-LU-fKu"/>
+            </connections>
+            <point key="canvasLocation" x="386" y="391"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="common_rightArrowShadow" width="20" height="20"/>
+        <image name="home_subregion_live" width="40" height="40"/>
+    </resources>
+</document>

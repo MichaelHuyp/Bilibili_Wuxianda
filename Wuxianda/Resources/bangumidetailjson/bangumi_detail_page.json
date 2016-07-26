@@ -1,0 +1,53 @@
+{
+  "code": 0,
+  "data": {
+    "aid": 5201151,
+    "tid": 33,
+    "tname": "",
+    "copyright": 2,
+    "pic": "http://i0.hdslb.com/bfs/archive/8257040f90140cbbd46cf3ba47809763d9fef4d8.jpg_320x200.jpg",
+    "title": "【7月】驱魔少年 HALLOW 01",
+    "pubdate": 1467653700,
+    "desc": "#01 『第十四任』",
+    "rights": {
+      "bp": 0,
+      "elec": 0,
+      "download": 1,
+      "movie": 0
+    },
+    "owner": {
+      "mid": 21453565,
+      "name": "TV-TOKYO",
+      "face": "http://i1.hdslb.com/bfs/face/69ef6861067d6ef637b7c73b77d71c3414996745.jpg",
+      "pendant": {
+        "name": "",
+        "image": "",
+        "expire": 0
+      }
+    },
+    "stat": {
+      "view": 405336,
+      "danmaku": 27309,
+      "reply": 9258,
+      "favorite": 769,
+      "coin": 1999,
+      "share": 1505
+    },
+    "tags": [
+      "TV动画"
+    ],
+    "pages": [
+      {
+        "cid": 8453372,
+        "page": 1,
+        "from": "vupload",
+        "link": "",
+        "has_alias": 0,
+        "weblink": "",
+        "part": "",
+        "rich_vid": "",
+        "vid": "vupload_8453372"
+      }
+    ]
+  }
+}

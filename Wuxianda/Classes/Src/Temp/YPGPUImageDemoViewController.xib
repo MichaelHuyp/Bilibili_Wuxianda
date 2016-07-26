@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YPGPUImageDemoViewController">
+            <connections>
+                <outlet property="imageView" destination="Flh-uU-t6n" id="Uf1-jD-IGC"/>
+                <outlet property="slider" destination="28o-G3-3xj" id="S2T-ur-dBS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-uU-t6n">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="5Yv-gS-U6R"/>
+                    </constraints>
+                </imageView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="28o-G3-3xj">
+                    <rect key="frame" x="248" y="285" width="104" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="A71-KZ-1P2"/>
+                        <constraint firstAttribute="width" constant="100" id="Ah2-lU-H5J"/>
+                    </constraints>
+                    <connections>
+                        <action selector="valueChange:" destination="-1" eventType="valueChanged" id="Lyd-Gq-Kwg"/>
+                    </connections>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="28o-G3-3xj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="HVu-wZ-ybG"/>
+                <constraint firstItem="Flh-uU-t6n" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UTZ-l2-It8"/>
+                <constraint firstItem="28o-G3-3xj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kYF-ne-dHK"/>
+                <constraint firstItem="Flh-uU-t6n" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kyU-kb-J1b"/>
+                <constraint firstAttribute="trailing" secondItem="Flh-uU-t6n" secondAttribute="trailing" id="xbH-gN-xxV"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

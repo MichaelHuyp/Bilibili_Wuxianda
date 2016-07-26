@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  Wuxianda
+//
+//  Created by MichaelPPP on 16/1/21.
+//  Copyright © 2016年 michaelhuyp. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+/** 主题颜色 */
+#define YPMainColor [UIColor colorWithRed:0.89f green:0.49f blue:0.61f alpha:1.00f]
+
+
+/** placeHolder背景色 */
+#define YPMainPlaceHolderBgColor [UIColor colorWithRed:0.94 green:0.94 blue:0.94 alpha:1]
+
+/** 主要的背景颜色 */
+#define YPMainBgColor [UIColor colorWithHexString:@"#F6F6F6"]
+
+
+/** 主题线的颜色 */
+#define YPMainLineColor [UIColor colorWithHexString:@"#C8C8C8"]
+
+/** 较浅的线颜色 */
+#define YPLightLineColor [UIColor colorWithHexString:@"#DCDCDC"]
+
+
+
+#import "YPConst.h"
+#import "Connect.h"
+
+#endif /* PrefixHeader_pch */

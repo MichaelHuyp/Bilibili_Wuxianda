@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPLiveEntranceIconsView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ca0-j5-WSt">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="543"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="n1H-HQ-uX1">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="78d-7v-LTj"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="Wpf-iA-Vzs"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gx8-YY-957">
+                    <rect key="frame" x="8" y="543" width="584" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pr-3K-xvO">
+                            <rect key="frame" x="0.0" y="0.0" width="195" height="49"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                            <state key="normal" title="关注主播" image="live_follow_ico"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGR-nL-4ht">
+                            <rect key="frame" x="195" y="0.0" width="194" height="49"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                            <state key="normal" title="直播中心" image="live_center_ico"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y98-eu-IiY">
+                            <rect key="frame" x="389" y="0.0" width="195" height="49"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="8" maxY="0.0"/>
+                            <state key="normal" title="搜索直播" image="live_search_ico"/>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4c-KL-hcF">
+                            <rect key="frame" x="195" y="0.0" width="1" height="49"/>
+                            <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="0.15382179054054054" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="cDh-hd-N8z"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tTz-h8-jQt">
+                            <rect key="frame" x="388" y="0.0" width="1" height="49"/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="0.15405933277027026" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="4GE-oT-PFA"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.89411764709999997" green="0.49019607840000001" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="sGR-nL-4ht" secondAttribute="bottom" id="1sM-wB-KUn"/>
+                        <constraint firstAttribute="bottom" secondItem="7Pr-3K-xvO" secondAttribute="bottom" id="84g-kE-VhT"/>
+                        <constraint firstAttribute="bottom" secondItem="Q4c-KL-hcF" secondAttribute="bottom" id="8nz-nO-Lpq"/>
+                        <constraint firstItem="Y98-eu-IiY" firstAttribute="top" secondItem="Gx8-YY-957" secondAttribute="top" id="8s3-or-UAk"/>
+                        <constraint firstItem="sGR-nL-4ht" firstAttribute="leading" secondItem="7Pr-3K-xvO" secondAttribute="trailing" id="Dtv-PP-ssT"/>
+                        <constraint firstItem="Y98-eu-IiY" firstAttribute="leading" secondItem="sGR-nL-4ht" secondAttribute="trailing" id="KfH-gb-pFa"/>
+                        <constraint firstAttribute="bottom" secondItem="tTz-h8-jQt" secondAttribute="bottom" id="KhS-mB-5Dm"/>
+                        <constraint firstItem="Y98-eu-IiY" firstAttribute="width" secondItem="7Pr-3K-xvO" secondAttribute="width" id="M6l-uO-ITx"/>
+                        <constraint firstItem="Q4c-KL-hcF" firstAttribute="top" secondItem="Gx8-YY-957" secondAttribute="top" id="M7d-uM-uY7"/>
+                        <constraint firstItem="sGR-nL-4ht" firstAttribute="width" secondItem="7Pr-3K-xvO" secondAttribute="width" id="Nb2-jb-rvf"/>
+                        <constraint firstItem="Y98-eu-IiY" firstAttribute="leading" secondItem="tTz-h8-jQt" secondAttribute="trailing" id="d8y-bM-9od"/>
+                        <constraint firstAttribute="height" constant="49" id="e3e-Zc-gYc"/>
+                        <constraint firstItem="7Pr-3K-xvO" firstAttribute="top" secondItem="Gx8-YY-957" secondAttribute="top" id="hRw-ZP-rgT"/>
+                        <constraint firstItem="sGR-nL-4ht" firstAttribute="top" secondItem="Gx8-YY-957" secondAttribute="top" id="hm5-kg-JNc"/>
+                        <constraint firstItem="Q4c-KL-hcF" firstAttribute="leading" secondItem="7Pr-3K-xvO" secondAttribute="trailing" id="ltb-kt-WkI"/>
+                        <constraint firstAttribute="bottom" secondItem="Y98-eu-IiY" secondAttribute="bottom" id="tvi-9w-aPz"/>
+                        <constraint firstItem="tTz-h8-jQt" firstAttribute="top" secondItem="Gx8-YY-957" secondAttribute="top" id="vlh-15-Hda"/>
+                        <constraint firstAttribute="trailing" secondItem="Y98-eu-IiY" secondAttribute="trailing" id="z7q-Vp-bwa"/>
+                        <constraint firstItem="7Pr-3K-xvO" firstAttribute="leading" secondItem="Gx8-YY-957" secondAttribute="leading" id="zaM-1M-tpY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ca0-j5-WSt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4ZO-Xo-icG"/>
+                <constraint firstItem="Gx8-YY-957" firstAttribute="top" secondItem="Ca0-j5-WSt" secondAttribute="bottom" id="9zU-Mf-Zig"/>
+                <constraint firstItem="Ca0-j5-WSt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QGB-FG-DPm"/>
+                <constraint firstItem="Gx8-YY-957" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="TrX-Sx-NGH"/>
+                <constraint firstAttribute="trailing" secondItem="Ca0-j5-WSt" secondAttribute="trailing" id="qso-aL-NJK"/>
+                <constraint firstAttribute="bottom" secondItem="Gx8-YY-957" secondAttribute="bottom" constant="8" id="y1a-nZ-C9v"/>
+                <constraint firstAttribute="trailing" secondItem="Gx8-YY-957" secondAttribute="trailing" constant="8" id="zJG-HE-BWi"/>
+            </constraints>
+            <connections>
+                <outlet property="attentionAuthorBtn" destination="7Pr-3K-xvO" id="1V6-Bd-BFR"/>
+                <outlet property="bottomToolBar" destination="Gx8-YY-957" id="ZRL-RG-zYx"/>
+                <outlet property="collectionView" destination="Ca0-j5-WSt" id="ot6-Mr-OYn"/>
+                <outlet property="liveCenterBtn" destination="sGR-nL-4ht" id="RF3-C8-eCr"/>
+                <outlet property="searchLiveBtn" destination="Y98-eu-IiY" id="c8D-nc-Apj"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="live_center_ico" width="18" height="18"/>
+        <image name="live_follow_ico" width="18" height="18"/>
+        <image name="live_search_ico" width="18" height="18"/>
+    </resources>
+</document>

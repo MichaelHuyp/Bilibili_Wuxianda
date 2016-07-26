@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YPCityPickerCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BB5-Dc-bWa" customClass="YPCityPickerButton">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="BB5-Dc-bWa" secondAttribute="trailing" id="6Vf-1b-PVF"/>
+                <constraint firstAttribute="bottom" secondItem="BB5-Dc-bWa" secondAttribute="bottom" id="UE2-DO-XY3"/>
+                <constraint firstItem="BB5-Dc-bWa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dXc-tz-q26"/>
+                <constraint firstItem="BB5-Dc-bWa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="riT-aD-6cG"/>
+            </constraints>
+            <size key="customSize" width="320" height="141"/>
+            <connections>
+                <outlet property="cityNameBtn" destination="BB5-Dc-bWa" id="Nww-Z3-jqo"/>
+            </connections>
+            <point key="canvasLocation" x="532" y="425.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

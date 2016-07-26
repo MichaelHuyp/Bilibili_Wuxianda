@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPBufferingProgressView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play_loading" translatesAutoresizingMaskIntoConstraints="NO" id="lRa-vT-WO3">
+                    <rect key="frame" x="8" y="292" width="16" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="7G9-xW-kzO"/>
+                        <constraint firstAttribute="height" constant="16" id="p3s-Y7-FRd"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在缓冲：0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPo-pP-nKX">
+                    <rect key="frame" x="28" y="290" width="104" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.80078125" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qPo-pP-nKX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BXW-4M-m0q"/>
+                <constraint firstItem="lRa-vT-WO3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SgC-OA-PA6"/>
+                <constraint firstItem="lRa-vT-WO3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="TlX-jl-CMQ"/>
+                <constraint firstItem="qPo-pP-nKX" firstAttribute="leading" secondItem="lRa-vT-WO3" secondAttribute="trailing" constant="4" id="xQh-5n-dx9"/>
+            </constraints>
+            <connections>
+                <outlet property="loadingImageView" destination="lRa-vT-WO3" id="MKS-DA-bM9"/>
+                <outlet property="progressLabel" destination="qPo-pP-nKX" id="IME-Bm-WmO"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="play_loading" width="16" height="16"/>
+    </resources>
+</document>

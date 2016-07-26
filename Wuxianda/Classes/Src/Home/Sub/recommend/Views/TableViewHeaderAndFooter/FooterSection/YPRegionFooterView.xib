@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPRegionFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOf-zv-pai">
+                    <rect key="frame" x="8" y="283" width="150" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="amL-mD-jm6"/>
+                        <constraint firstAttribute="width" constant="150" id="h9C-eK-5A4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="更多直播" backgroundImage="shadow_5_corner_246_bg">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gt3-6O-eVT" customClass="YPRefreshTypeButton">
+                    <rect key="frame" x="423" y="290" width="161" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="15条动态，点击刷新！" image="home_refresh">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gt3-6O-eVT" secondAttribute="trailing" constant="16" id="CTj-Vt-eVk"/>
+                <constraint firstItem="gt3-6O-eVT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PER-U7-yEZ"/>
+                <constraint firstItem="lOf-zv-pai" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="csK-eu-kn5"/>
+                <constraint firstItem="lOf-zv-pai" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="ku8-zC-jgr"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_refresh" width="20" height="20"/>
+        <image name="shadow_5_corner_246_bg" width="20" height="20"/>
+    </resources>
+</document>

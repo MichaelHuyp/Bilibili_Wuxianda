@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPBangumiEntranceIconsView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7g-eq-KiK" customClass="YPVerticalButton">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="94" id="Byq-h2-mv3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="连载动画" image="home_region_icon_33">
+                        <color key="titleColor" white="0.0" alpha="0.79837943410000001" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2h-wC-W5D" customClass="YPVerticalButton">
+                    <rect key="frame" x="150" y="0.0" width="150" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="94" id="Nm3-eF-9aJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="完结动画" image="home_region_icon_32">
+                        <color key="titleColor" white="0.0" alpha="0.79837943410000001" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48S-AU-JyX" customClass="YPVerticalButton">
+                    <rect key="frame" x="300" y="0.0" width="150" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="94" id="Q68-ZH-sAj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="国产动画" image="home_region_icon_153">
+                        <color key="titleColor" white="0.0" alpha="0.79837943410000001" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUf-vP-mJ0" customClass="YPVerticalButton">
+                    <rect key="frame" x="450" y="0.0" width="150" height="94"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="94" id="NW2-Ng-c42"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="官方延伸" image="home_region_icon_152">
+                        <color key="titleColor" white="0.0" alpha="0.79837943410000001" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ry2-Df-C3J">
+                    <rect key="frame" x="8" y="102" width="189" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="XXH-dV-KzQ"/>
+                    </constraints>
+                    <state key="normal" image="hd_home_bangumi_recommend_new"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLE-lv-CXJ">
+                    <rect key="frame" x="205" y="102" width="190" height="50"/>
+                    <state key="normal" image="hd_home_bangumi_timeline_new"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHz-aM-Bc9">
+                    <rect key="frame" x="403" y="102" width="189" height="50"/>
+                    <state key="normal" image="hd_home_bangumi_category_new"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="48S-AU-JyX" firstAttribute="width" secondItem="N7g-eq-KiK" secondAttribute="width" id="15z-lr-XPI"/>
+                <constraint firstItem="HUf-vP-mJ0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="20P-Ys-4pr"/>
+                <constraint firstAttribute="trailing" secondItem="aHz-aM-Bc9" secondAttribute="trailing" constant="8" id="2oN-Ue-l1P"/>
+                <constraint firstItem="aHz-aM-Bc9" firstAttribute="top" secondItem="ry2-Df-C3J" secondAttribute="top" id="5L9-IO-5Pv"/>
+                <constraint firstItem="HUf-vP-mJ0" firstAttribute="leading" secondItem="48S-AU-JyX" secondAttribute="trailing" id="9YX-QD-dEs"/>
+                <constraint firstItem="48S-AU-JyX" firstAttribute="leading" secondItem="O2h-wC-W5D" secondAttribute="trailing" id="F36-x5-Xpb"/>
+                <constraint firstItem="ry2-Df-C3J" firstAttribute="top" secondItem="O2h-wC-W5D" secondAttribute="bottom" constant="8" id="IHn-rI-kNM"/>
+                <constraint firstItem="N7g-eq-KiK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KNL-sS-xuA"/>
+                <constraint firstItem="NLE-lv-CXJ" firstAttribute="height" secondItem="ry2-Df-C3J" secondAttribute="height" id="LP5-qE-OcG"/>
+                <constraint firstItem="N7g-eq-KiK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RsG-QP-HQ7"/>
+                <constraint firstAttribute="trailing" secondItem="HUf-vP-mJ0" secondAttribute="trailing" id="T7x-Kc-2G4"/>
+                <constraint firstItem="NLE-lv-CXJ" firstAttribute="leading" secondItem="ry2-Df-C3J" secondAttribute="trailing" constant="8" id="WUh-oq-iHo"/>
+                <constraint firstItem="aHz-aM-Bc9" firstAttribute="height" secondItem="ry2-Df-C3J" secondAttribute="height" id="c4k-Om-yQk"/>
+                <constraint firstItem="O2h-wC-W5D" firstAttribute="width" secondItem="N7g-eq-KiK" secondAttribute="width" id="dUy-9r-zko"/>
+                <constraint firstItem="48S-AU-JyX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="etk-Lu-qmM"/>
+                <constraint firstItem="O2h-wC-W5D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ife-GU-OEI"/>
+                <constraint firstItem="aHz-aM-Bc9" firstAttribute="leading" secondItem="NLE-lv-CXJ" secondAttribute="trailing" constant="8" id="k4z-GF-Tog"/>
+                <constraint firstItem="O2h-wC-W5D" firstAttribute="leading" secondItem="N7g-eq-KiK" secondAttribute="trailing" id="nWe-RG-Fgh"/>
+                <constraint firstItem="ry2-Df-C3J" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="oCL-eW-Z9V"/>
+                <constraint firstItem="NLE-lv-CXJ" firstAttribute="width" secondItem="ry2-Df-C3J" secondAttribute="width" id="po9-K1-14x"/>
+                <constraint firstItem="NLE-lv-CXJ" firstAttribute="top" secondItem="ry2-Df-C3J" secondAttribute="top" id="sX3-MS-vA3"/>
+                <constraint firstItem="HUf-vP-mJ0" firstAttribute="width" secondItem="N7g-eq-KiK" secondAttribute="width" id="wVY-XI-jh0"/>
+                <constraint firstItem="aHz-aM-Bc9" firstAttribute="width" secondItem="ry2-Df-C3J" secondAttribute="width" id="ypx-Ye-VFp"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="hd_home_bangumi_category_new" width="274" height="60"/>
+        <image name="hd_home_bangumi_recommend_new" width="274" height="60"/>
+        <image name="hd_home_bangumi_timeline_new" width="274" height="60"/>
+        <image name="home_region_icon_152" width="40" height="40"/>
+        <image name="home_region_icon_153" width="40" height="40"/>
+        <image name="home_region_icon_32" width="40" height="40"/>
+        <image name="home_region_icon_33" width="40" height="40"/>
+    </resources>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YPBangumiDetailEvaluateView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85J-5g-QUj">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="k1p-Nd-7ap"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rpF-Sb-77I">
+                    <rect key="frame" x="0.0" y="599" width="600" height="1"/>
+                    <color key="backgroundColor" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="9ei-9m-Co1"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCw-Cj-HDd">
+                    <rect key="frame" x="12" y="25" width="36" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在日本大数据库的骄傲离开在日本大数据库的骄傲离开在日本大数据库的骄傲离开在日本大数据库的骄傲离开在日本大数据库的骄傲离开在日本大数据库的骄傲离开" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fcj-e2-URk">
+                    <rect key="frame" x="12" y="63" width="576" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.58823529411764708" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_rightArrow" translatesAutoresizingMaskIntoConstraints="NO" id="4ON-pR-b17">
+                    <rect key="frame" x="584" y="29" width="8" height="14"/>
+                    <color key="tintColor" red="0.89411764709999997" green="0.49019607840000001" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="85J-5g-QUj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1nm-Hc-KT1"/>
+                <constraint firstItem="Fcj-e2-URk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="4Ot-V1-MVR"/>
+                <constraint firstItem="rpF-Sb-77I" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Bct-qY-7Ur"/>
+                <constraint firstItem="85J-5g-QUj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CdB-YS-Z4N"/>
+                <constraint firstAttribute="trailing" secondItem="4ON-pR-b17" secondAttribute="trailing" constant="8" id="Mvx-Iq-HJw"/>
+                <constraint firstAttribute="bottom" secondItem="rpF-Sb-77I" secondAttribute="bottom" id="Naz-x9-tmZ"/>
+                <constraint firstItem="oCw-Cj-HDd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="QPs-HS-2n8"/>
+                <constraint firstItem="oCw-Cj-HDd" firstAttribute="top" secondItem="85J-5g-QUj" secondAttribute="bottom" constant="24" id="a4o-ko-BM0"/>
+                <constraint firstItem="4ON-pR-b17" firstAttribute="centerY" secondItem="oCw-Cj-HDd" secondAttribute="centerY" id="b3V-w6-5Bz"/>
+                <constraint firstAttribute="trailing" secondItem="Fcj-e2-URk" secondAttribute="trailing" constant="12" id="bIw-2R-RmP"/>
+                <constraint firstAttribute="trailing" secondItem="rpF-Sb-77I" secondAttribute="trailing" id="cST-on-dDJ"/>
+                <constraint firstAttribute="trailing" secondItem="85J-5g-QUj" secondAttribute="trailing" id="gM8-SF-EO8"/>
+                <constraint firstItem="Fcj-e2-URk" firstAttribute="top" secondItem="oCw-Cj-HDd" secondAttribute="bottom" constant="16" id="jKX-PU-TQj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="evaluateLabel" destination="Fcj-e2-URk" id="qww-6L-zd1"/>
+            </connections>
+            <point key="canvasLocation" x="685" y="422"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="common_rightArrow" width="8" height="14"/>
+    </resources>
+</document>
