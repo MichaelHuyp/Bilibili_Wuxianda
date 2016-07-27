@@ -1,4 +1,4 @@
-![(logo)](http://img2.imgtn.bdimg.com/it/u=2951591626,706941868&fm=21&gp=0.jpg)
+![(logo)](http://oayb998oo.bkt.clouddn.com/logo.jpg)
 ## 高仿bilibili项目
 
 简书详细介绍入口：[点击进入](http://www.jianshu.com/p/09eebb030331)
