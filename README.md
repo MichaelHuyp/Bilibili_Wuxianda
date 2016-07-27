@@ -29,7 +29,7 @@
   <img src="http://oayb998oo.bkt.clouddn.com/recommend1.jpg" width=375 />
   
   
-  <img src="http://oayb998oo.bkt.clouddn.com/recommenddetail1.png" width=375 />
+  <img src="http://oayb998oo.bkt.clouddn.com/recommenddetail1.png" width=376 />
 
 ##### 直播以及番剧界面
 
