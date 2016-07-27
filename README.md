@@ -17,17 +17,17 @@
 
 
 #### 项目展示
+
 ##### 启动页
 
 <img src="http://oayb998oo.bkt.clouddn.com/launch1.png" width=375 />
 <img src="http://oayb998oo.bkt.clouddn.com/launch2.jpg" width=375 />
-<img src="http://oayb998oo.bkt.clouddn.com/111.png" width=375 />
-
 
 ##### 推荐界面
   
   <img src="http://oayb998oo.bkt.clouddn.com/recommend1.jpg" width=375 />
-  <img src="http://oayb998oo.bkt.clouddn.com/222.png" width = 320/>
+    <img src="http://oayb998oo.bkt.clouddn.com/222.png" width=375 />
+
 
 ##### 直播以及番剧界面
 
