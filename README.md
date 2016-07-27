@@ -14,31 +14,26 @@
 #### 项目展示
 ##### 启动页
 
-![launch](http://oayb998oo.bkt.clouddn.com/lanch1gif.gif)
-![launch](http://oayb998oo.bkt.clouddn.com/lanch2gif.gif)
-![launch](http://oayb998oo.bkt.clouddn.com/lanch3gif.gif)
+![launch](http://oayb998oo.bkt.clouddn.com/launch1.png)
+![launch](http://oayb998oo.bkt.clouddn.com/launch2.jpg)
+![launch](http://oayb998oo.bkt.clouddn.com/launch3.jpg)
 
 ##### 推荐界面
   
-![recommend](http://oayb998oo.bkt.clouddn.com/recommondgif.gif)
+![recommend](http://oayb998oo.bkt.clouddn.com/recommend1.jpg)
 
-![recommend](http://oayb998oo.bkt.clouddn.com/recommonddetailgif.gif)
-
-![recommend](http://oayb998oo.bkt.clouddn.com/bangumidetail2gif.gif)
+![recommend](http://oayb998oo.bkt.clouddn.com/recommenddetail1.png)
 
 ##### 直播以及番剧界面
-![liveandBangumi](http://oayb998oo.bkt.clouddn.com/liveandbangumiui.gif)
+![liveandBangumi](http://oayb998oo.bkt.clouddn.com/live1.jpg)
+![liveandBangumi](http://oayb998oo.bkt.clouddn.com/bangumi1.jpg)
 
 ## 基于ijkplayer的播放器
 
-![movie](http://oayb998oo.bkt.clouddn.com/live1gif.gif)
+![movie](http://oayb998oo.bkt.clouddn.com/livemovie1.jpg)
 
 
-![movie](http://oayb998oo.bkt.clouddn.com/live2gif.gif)
+![movie](http://oayb998oo.bkt.clouddn.com/livemovie2.jpg)
 
-
-![movie](http://oayb998oo.bkt.clouddn.com/live3gif.gif)
-
-
-![movie](http://oayb998oo.bkt.clouddn.com/bangumimovie3.gif)
+![movie](http://oayb998oo.bkt.clouddn.com/livemovie3.jpg)
 
