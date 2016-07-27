@@ -7,6 +7,10 @@
 - 直播、推荐、番剧界面的搭建
 - 基于ijkplayer的视频播放器（普通视频、直播视频）
 
+####IJKMediaFramework/IJKMediaFramework.h not found
+以下是我打包的ijkplayer Framework 下载之后拖进项目，项目即可成功运行
+链接: http://pan.baidu.com/s/1gfmE5u7 密码: 6jta
+
 #### 项目展示
 ##### 启动页
 
