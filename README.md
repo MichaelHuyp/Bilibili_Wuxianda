@@ -1,5 +1,8 @@
 ![(logo)](http://img2.imgtn.bdimg.com/it/u=2951591626,706941868&fm=21&gp=0.jpg)
 ## 高仿bilibili项目
+
+简书详细介绍入口：[点击进入](http://www.jianshu.com/p/09eebb030331)
+
 ####目前完成了如下功能：
 
 - 启动页的业务逻辑
@@ -11,29 +14,39 @@
 以下是我打包的ijkplayer Framework 下载之后拖进项目，项目即可成功运行
 链接: http://pan.baidu.com/s/1gfmE5u7 密码: 6jta
 
+
+
 #### 项目展示
 ##### 启动页
 
-![launch](http://oayb998oo.bkt.clouddn.com/launch1.png)
-![launch](http://oayb998oo.bkt.clouddn.com/launch2.jpg)
-![launch](http://oayb998oo.bkt.clouddn.com/launch3.jpg)
+<img src="http://oayb998oo.bkt.clouddn.com/launch1.png" width=375 />
+<img src="http://oayb998oo.bkt.clouddn.com/launch2.jpg" width=375 />
+<img src="http://oayb998oo.bkt.clouddn.com/launch3.jpg" width=375 />
+
 
 ##### 推荐界面
   
-![recommend](http://oayb998oo.bkt.clouddn.com/recommend1.jpg)
-
-![recommend](http://oayb998oo.bkt.clouddn.com/recommenddetail1.png)
+  <img src="http://oayb998oo.bkt.clouddn.com/recommend1.jpg" width=375 />
+  
+  <img src="http://oayb998oo.bkt.clouddn.com/recommenddetail1.png" width=375 />
 
 ##### 直播以及番剧界面
-![liveandBangumi](http://oayb998oo.bkt.clouddn.com/live1.jpg)
-![liveandBangumi](http://oayb998oo.bkt.clouddn.com/bangumi1.jpg)
+<img src="http://oayb998oo.bkt.clouddn.com/live1.jpg" width=375 />
+<img src="http://oayb998oo.bkt.clouddn.com/bangumi1.jpg" width=375 />
 
 ## 基于ijkplayer的播放器
 
-![movie](http://oayb998oo.bkt.clouddn.com/livemovie1.jpg)
+<img src="http://oayb998oo.bkt.clouddn.com/livemovie1.jpg" width=667 />
+
+<img src="http://oayb998oo.bkt.clouddn.com/livemovie2.jpg" width=375 />
+
+<img src="http://oayb998oo.bkt.clouddn.com/livemovie3.jpg" width=667 />
 
 
-![movie](http://oayb998oo.bkt.clouddn.com/livemovie2.jpg)
+#写在最后 
 
-![movie](http://oayb998oo.bkt.clouddn.com/livemovie3.jpg)
+- 希望能把这个项目写完，还有许许多多的功能点没有写，持续更新中...
+
+###每天进步一点点...  Bilibili - ( ゜- ゜)つロ 乾杯~
+
 
