@@ -212,7 +212,6 @@
 		DA19B5EE1D21089D009882C1 /* YPRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA19B5541D21089C009882C1 /* YPRuntimeHelper.m */; };
 		DA19B5EF1D21089D009882C1 /* YPThirdPartyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA19B5561D21089C009882C1 /* YPThirdPartyManager.m */; };
 		DA3E5FDE1D2A123E00B099CC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3E5FDD1D2A123E00B099CC /* libc++.tbd */; };
-		DA3E5FE21D2A137600B099CC /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3E5FE11D2A137600B099CC /* Reveal.framework */; };
 		DA4340D41D3CA4700074FD2D /* YPLiveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4340D21D3CA4700074FD2D /* YPLiveDetailViewController.m */; };
 		DA4340DE1D3CBFC50074FD2D /* YPMVDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4340DD1D3CBFC50074FD2D /* YPMVDemoController.m */; };
 		DA60E3AE1CF8327F009932E1 /* protocol.html in Resources */ = {isa = PBXBuildFile; fileRef = DA60E3AD1CF8327F009932E1 /* protocol.html */; };
@@ -662,7 +661,6 @@
 		DA19B5551D21089C009882C1 /* YPThirdPartyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPThirdPartyManager.h; sourceTree = "<group>"; };
 		DA19B5561D21089C009882C1 /* YPThirdPartyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPThirdPartyManager.m; sourceTree = "<group>"; };
 		DA3E5FDD1D2A123E00B099CC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		DA3E5FE11D2A137600B099CC /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		DA4340D11D3CA4700074FD2D /* YPLiveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLiveDetailViewController.h; sourceTree = "<group>"; };
 		DA4340D21D3CA4700074FD2D /* YPLiveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLiveDetailViewController.m; sourceTree = "<group>"; };
 		DA4340DC1D3CBFC50074FD2D /* YPMVDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPMVDemoController.h; sourceTree = "<group>"; };
@@ -797,7 +795,6 @@
 				DA3E5FDE1D2A123E00B099CC /* libc++.tbd in Frameworks */,
 				DA84912A1CF29F0200FC45E6 /* WebKit.framework in Frameworks */,
 				4E2D8EC21CF03600003D7078 /* MessageUI.framework in Frameworks */,
-				DA3E5FE21D2A137600B099CC /* Reveal.framework in Frameworks */,
 				4E8BFA381CE85BFF001380D2 /* VideoToolbox.framework in Frameworks */,
 				4E8BFA361CE85BF0001380D2 /* QuartzCore.framework in Frameworks */,
 				4E8BFA341CE85BE7001380D2 /* OpenGLES.framework in Frameworks */,
@@ -1969,7 +1966,6 @@
 		DAFCBB1C1C50AAFA000D44D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA3E5FE11D2A137600B099CC /* Reveal.framework */,
 				DAFCBB251C50AAFA000D44D8 /* Main.storyboard */,
 				DAFCBB2D1C50AAFA000D44D8 /* Info.plist */,
 				DAFCBB1D1C50AAFA000D44D8 /* main.m */,
@@ -2614,7 +2610,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Wuxianda/frameworks/BaiduNavi_iOSSDK_v2.0.6_Lib/**";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -2652,7 +2648,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Wuxianda/frameworks/BaiduNavi_iOSSDK_v2.0.6_Lib/**";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2684,7 +2680,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhuyp.Wuxianda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2720,7 +2715,6 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
-					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhuyp.Wuxianda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
