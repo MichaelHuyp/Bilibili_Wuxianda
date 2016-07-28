@@ -84,6 +84,8 @@
     self.isShowOverlay = YES;
     self.overlayView.alpha = 1;
     
+
+    
     // 播放按钮
     [_playBtn setImage:[[UIImage imageNamed:@"player_pause_bottom_window"] imageByTintColor:YPMainColor] forState:UIControlStateNormal];
     [_playBtn setImage:[[UIImage imageNamed:@"player_play_bottom_window"] imageByTintColor:YPMainColor] forState:UIControlStateSelected];
@@ -93,6 +95,14 @@
         @strongify(self);
         // 改变播放状态
         [self changePlayStatus];
+    }];
+    
+    // 恢复竖屏按钮
+    [[_portraitBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        @strongify(self);
+        if ([self.myDelegate conformsToProtocol:@protocol(YPLiveLandscapeToolViewDelegate)] && [self.myDelegate respondsToSelector:@selector(liveLandscapeToolViewPortraitBtnDidTouch:)]) {
+            [self.myDelegate liveLandscapeToolViewPortraitBtnDidTouch:self];
+        }
     }];
     
     // 静音按钮

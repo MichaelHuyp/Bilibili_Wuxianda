@@ -10,7 +10,7 @@
 
 @class YPLiveModel;
 
-@protocol IJKMediaPlayback;
+@protocol IJKMediaPlayback,YPLiveLandscapeToolViewDelegate;
 
 @interface YPLiveLandscapeToolView : UIView
 
@@ -19,5 +19,16 @@
 
 /** 代理播放器 */
 @property(nonatomic, weak) id<IJKMediaPlayback> delegatePlayer;
+
+/** 代理 */
+@property (nonatomic, weak) id<YPLiveLandscapeToolViewDelegate> myDelegate;
+
+@end
+
+@protocol YPLiveLandscapeToolViewDelegate <NSObject>
+
+@optional
+/** 转换为竖屏 */
+- (void)liveLandscapeToolViewPortraitBtnDidTouch:(YPLiveLandscapeToolView *)liveLandscapeToolView;
 
 @end

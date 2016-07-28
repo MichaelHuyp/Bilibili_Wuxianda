@@ -13,7 +13,7 @@
 #import "YPLiveLandscapeToolView.h"
 #import "YPLiveModel.h"
 
-@interface YPPlayerView ()
+@interface YPPlayerView () <YPLiveLandscapeToolViewDelegate>
 
 @property(atomic, strong) id <IJKMediaPlayback> player;
 
@@ -290,7 +290,7 @@
         _landscapeToolView = landscapeToolView;
         [self addSubview:landscapeToolView];
         landscapeToolView.hidden = YES;
-        
+        landscapeToolView.myDelegate = self;
         _landscapeToolView.delegatePlayer = self.player;
         [self bringSubviewToFront:_landscapeToolView];
         
@@ -387,7 +387,11 @@
     [[YPBufferingProgressView shareInstance] setProgress:[self.player bufferingProgress]];
 }
 
-
+#pragma mark - YPLiveLandscapeToolViewDelegate
+- (void)liveLandscapeToolViewPortraitBtnDidTouch:(YPLiveLandscapeToolView *)liveLandscapeToolView
+{
+    [self interfaceOrientation:UIInterfaceOrientationPortrait];
+}
 
 
 @end
