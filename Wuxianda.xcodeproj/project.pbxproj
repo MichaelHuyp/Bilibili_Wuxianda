@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E2D8EC21CF03600003D7078 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2D8EC11CF03600003D7078 /* MessageUI.framework */; };
-		4E6679171D2D311100EB4B1E /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6679041D2D311100EB4B1E /* IJKMediaFramework.framework */; };
+		4E6FB54A1D49B33B0082D2D6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6FB5491D49B33B0082D2D6 /* IJKMediaFramework.framework */; };
 		4E8BFA291CE85B7D001380D2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8BFA281CE85B7D001380D2 /* libz.tbd */; };
 		4E8BFA2B1CE85B99001380D2 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8BFA2A1CE85B99001380D2 /* libbz2.tbd */; };
 		4E8BFA2D1CE85BB5001380D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8BFA2C1CE85BB5001380D2 /* CoreGraphics.framework */; };
@@ -313,7 +313,7 @@
 		2657E22E431886FC241BC08E /* Pods_WuxiandaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WuxiandaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4882BAB342BE584A1CDE5F20 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4E2D8EC11CF03600003D7078 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		4E6679041D2D311100EB4B1E /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		4E6FB5491D49B33B0082D2D6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		4E8BFA281CE85B7D001380D2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4E8BFA2A1CE85B99001380D2 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		4E8BFA2C1CE85BB5001380D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -794,6 +794,7 @@
 			files = (
 				DA3E5FDE1D2A123E00B099CC /* libc++.tbd in Frameworks */,
 				DA84912A1CF29F0200FC45E6 /* WebKit.framework in Frameworks */,
+				4E6FB54A1D49B33B0082D2D6 /* IJKMediaFramework.framework in Frameworks */,
 				4E2D8EC21CF03600003D7078 /* MessageUI.framework in Frameworks */,
 				4E8BFA381CE85BFF001380D2 /* VideoToolbox.framework in Frameworks */,
 				4E8BFA361CE85BF0001380D2 /* QuartzCore.framework in Frameworks */,
@@ -806,7 +807,6 @@
 				DAF2555F1CD34A9000A5E2C6 /* AudioToolbox.framework in Frameworks */,
 				4E8BFA2B1CE85B99001380D2 /* libbz2.tbd in Frameworks */,
 				4E8BFA291CE85B7D001380D2 /* libz.tbd in Frameworks */,
-				4E6679171D2D311100EB4B1E /* IJKMediaFramework.framework in Frameworks */,
 				DAF2556E1CD34AD600A5E2C6 /* libstdc++.6.0.9.tbd in Frameworks */,
 				DAF2556C1CD34ACE00A5E2C6 /* SystemConfiguration.framework in Frameworks */,
 				DAF2556B1CD34AC800A5E2C6 /* AVFoundation.framework in Frameworks */,
@@ -836,6 +836,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E6FB5481D49B33B0082D2D6 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6FB5491D49B33B0082D2D6 /* IJKMediaFramework.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
 		4ED70F411D45CEA7000ABA78 /* YYFPSLabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -1712,14 +1720,6 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		DA3E5FE31D2A138400B099CC /* frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4E6679041D2D311100EB4B1E /* IJKMediaFramework.framework */,
-			);
-			path = frameworks;
-			sourceTree = "<group>";
-		};
 		DA4340CC1D3CA3E60074FD2D /* Sub */ = {
 			isa = PBXGroup;
 			children = (
@@ -1955,7 +1955,7 @@
 				DAFCBB631C50C58A000D44D8 /* YPConst.m */,
 				DAFCBB1F1C50AAFA000D44D8 /* AppDelegate.h */,
 				DAFCBB201C50AAFA000D44D8 /* AppDelegate.m */,
-				DA3E5FE31D2A138400B099CC /* frameworks */,
+				4E6FB5481D49B33B0082D2D6 /* frameworks */,
 				DA60E3A81CF81DFB009932E1 /* Resources */,
 				DAFCBB501C50ACCD000D44D8 /* Classes */,
 				DAFCBB1C1C50AAFA000D44D8 /* Supporting Files */,

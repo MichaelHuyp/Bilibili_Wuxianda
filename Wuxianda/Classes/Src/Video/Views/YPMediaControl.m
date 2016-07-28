@@ -12,6 +12,7 @@
 #import <MediaPlayer/MediaPlayer.h>
 #import "YPBrightnessView.h"
 #import "YPAdjustSpeedView.h"
+#import "YPBufferingProgressView.h"
 
 @interface YPMediaControl () <UIGestureRecognizerDelegate>
 
@@ -64,6 +65,9 @@
 #pragma mark - 定时器
 /** 计时器 */
 @property (nonatomic, strong) NSTimer *timer;
+
+/** 缓存进度计时器 */
+@property (nonatomic, strong) NSTimer *bufferingTimer;
 
 @end
 
@@ -138,15 +142,57 @@
             [self.delegatePlayer stop];
         }
     }];
+    
+    // 注册缓冲的通知
+    [[YPNotificationCenter rac_addObserverForName:IJKMPMoviePlayerLoadStateDidChangeNotification object:nil] subscribeNext:^(NSNotification *noti) {
+        @strongify(self);
+        
+        // 释放资源
+        [self.bufferingTimer invalidate];
+        [[YPBufferingProgressView shareInstance] setProgress:0];
+        [YPBufferingProgressView dismiss];
+        
+        IJKFFMoviePlayerController *player = (IJKFFMoviePlayerController *)noti.object;
+        
+        if (player.loadState == IJKMPMovieLoadStateStalled) { // 缓冲开始
+            YPLog(@"缓冲开始");
+            
+            [YPBufferingProgressView showInView:self];
+            
+            // 开启定时器
+            self.bufferingTimer = [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(buffering) userInfo:nil repeats:YES];
+            [[NSRunLoop mainRunLoop] addTimer:self.bufferingTimer forMode:NSRunLoopCommonModes];
+            
+        } else if (player.loadState == (IJKMPMovieLoadStatePlayable | IJKMPMovieLoadStatePlaythroughOK)) { // 缓冲结束
+            YPLog(@"缓冲结束");
+            // 释放资源
+            [self.bufferingTimer invalidate];
+            [[YPBufferingProgressView shareInstance] setProgress:0];
+            [YPBufferingProgressView dismiss];
+        }
+        
+    }];
+
 }
 
 - (void)dealloc
 {
     [YPNotificationCenter removeObserver:self];
+    [self.timer invalidate];
+    [self.bufferingTimer invalidate];
+    self.timer = nil;
+    self.bufferingTimer = nil;
 }
 
 
 #pragma mark - 计时器事件
+
+- (void)buffering
+{
+    YPLog(@"当前缓冲进度为 %zd",[self.delegatePlayer bufferingProgress]);
+    [[YPBufferingProgressView shareInstance] setProgress:[self.delegatePlayer bufferingProgress]];
+}
+
 /**
  *  计时器事件
  */

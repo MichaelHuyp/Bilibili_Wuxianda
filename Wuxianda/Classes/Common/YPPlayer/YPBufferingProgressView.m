@@ -70,7 +70,12 @@
         progress = 99;
     }
     
-    self.progressLabel.text = [NSString stringWithFormat:@"正在缓冲：%lu%%",progress];
+    if (progress == 0) {
+        self.progressLabel.text = @"正在缓冲";
+    } else {
+        self.progressLabel.text = [NSString stringWithFormat:@"正在缓冲：%lu%%",progress];
+    }
+    
 }
 
 - (void)layoutSubviews

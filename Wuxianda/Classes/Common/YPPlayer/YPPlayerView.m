@@ -143,6 +143,7 @@
 
 - (void)dealloc
 {
+    [self.bufferingTimer invalidate];
     self.bufferingTimer = nil;
     [YPNotificationCenter removeObserver:self];
 }
@@ -372,6 +373,7 @@
         } else if (player.loadState == (IJKMPMovieLoadStatePlayable | IJKMPMovieLoadStatePlaythroughOK)) { // 缓冲结束
             YPLog(@"缓冲结束");
             [self.bufferingTimer invalidate];
+            [[YPBufferingProgressView shareInstance] setProgress:0];
             [YPBufferingProgressView dismiss];
             
         }
