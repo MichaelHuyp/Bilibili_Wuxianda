@@ -2,7 +2,7 @@ use_frameworks!
 branch = ENV['sha']
 
 target 'Wuxianda' do
-    pod 'Realm', git: 'git@github.com:realm/realm-cocoa.git', branch: branch
+    pod 'Realm', git: 'https://github.com/realm/realm-cocoa.git', branch: branch
     pod 'ReactiveCocoa', '~> 4.1.0'
     pod 'UMengSocialCOM'
     pod 'AFNetworking'
@@ -26,7 +26,7 @@ target 'Wuxianda' do
 end
 
 target 'WuxiandaTests' do
-    pod 'Realm/Headers', git: 'git@github.com:realm/realm-cocoa.git', branch: branch
+    pod 'Realm/Headers', git: 'https://github.com/realm/realm-cocoa.git', branch: branch
 end
 
 

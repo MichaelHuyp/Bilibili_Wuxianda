@@ -12,8 +12,6 @@
 #import "YPThirdPartyManager.h"
 #import "YPLaunchViewController.h"
 #import "YPVideoLaunchViewController.h"
-#import "YPMVDemoController.h"
-#import "YPBangumiViewController.h"
 
 
 @interface AppDelegate ()
