@@ -3,6 +3,8 @@
 
 简书详细介绍入口：[点击进入](http://www.jianshu.com/p/09eebb030331)
 
+[![Codewake](https://www.codewake.com/badges/ask_question.svg)](https://www.codewake.com/p/bilibili_wuxianda)
+
 ####目前完成了如下功能：
 
 - 启动页的业务逻辑
