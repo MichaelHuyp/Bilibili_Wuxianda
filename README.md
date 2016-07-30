@@ -10,12 +10,23 @@
 - 启动页的业务逻辑
 - 带有阻力效果的轮播图
 - 直播、推荐、番剧界面的搭建
-- 基于ijkplayer的视频播放器（普通视频、直播视频）
+- 集成基于ijkplayer的视频播放器（普通视频、直播视频）
 
 ####IJKMediaFramework/IJKMediaFramework.h not found
 以下是我打包的ijkplayer Framework 下载之后拖进项目，项目即可成功运行
 链接: http://pan.baidu.com/s/1gfmE5u7 密码: 6jta
 
+
+### 七月三十号更新：
+- 个人中心模块的搭建
+- 集成基于来疯直播开源的[LFLiveKit](https://github.com/LaiFengiOS/LFLiveKit)的手机直播功能
+  - RTMP推流
+  - 镜像 、美颜、手电筒、摄像头方向
+
+- 更新展示
+
+<img src="http://oayb998oo.bkt.clouddn.com/profile1.png" width=375 />
+<img src="http://oayb998oo.bkt.clouddn.com/phoneLive1.jpg" width=375 />
 
 
 #### 项目展示
