@@ -75,7 +75,7 @@
         @strongify(self);
         CGPoint point = [x CGPointValue];
         if (point.y > 1) {
-            self.profileScrollView.backgroundColor = YPLightGrayColor;
+            self.profileScrollView.backgroundColor = YPLightLineColor;
         } else {
             self.profileScrollView.backgroundColor = [UIColor colorWithHexString:@"#E75686"];
         }
