@@ -9,6 +9,7 @@
 #import "YPTabBarController.h"
 #import "YPNavigationController.h"
 #import "YPHomeController.h"
+#import "YPProfileViewController.h"
 
 @interface YPTabBarController () <UITabBarControllerDelegate>
 
@@ -44,7 +45,9 @@
     
     self.tabBar.tintColor = YPMainColor;
     
-    [self addChildVc:[YPHomeController controller] andTitle:@"首页" andImage:@"home" andSelectedImage:@"home_hover"];
+    [self addChildVc:[YPHomeController controller] andTitle:@"首页" andImage:@"home_home_tab" andSelectedImage:@"home_home_tab_s"];
+    
+    [self addChildVc:[YPProfileViewController controller] andTitle:@"我的" andImage:@"home_mine_tab" andSelectedImage:@"home_mine_tab_s"];
 }
 
 - (void)viewWillAppear:(BOOL)animated

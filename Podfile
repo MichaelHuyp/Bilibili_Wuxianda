@@ -1,8 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "8.0"
 use_frameworks!
-branch = ENV['sha']
 
 target 'Wuxianda' do
-    pod 'Realm', git: 'https://github.com/realm/realm-cocoa.git', branch: branch
+    pod 'Realm'
     pod 'ReactiveCocoa', '~> 4.1.0'
     pod 'UMengSocialCOM'
     pod 'AFNetworking'
@@ -18,15 +19,16 @@ target 'Wuxianda' do
     pod 'SDAutoLayout'
     pod 'UITableView+FDTemplateLayoutCell'
     pod 'FDFullscreenPopGesture'
-    pod 'GPUImage'
+    #pod 'GPUImage'
     pod 'KissXML'
     pod 'pop'
     pod 'AMTagListView'
     pod 'LTNavigationBar'
+    pod 'LFLiveKit'
 end
 
 target 'WuxiandaTests' do
-    pod 'Realm/Headers', git: 'https://github.com/realm/realm-cocoa.git', branch: branch
+    pod 'Realm/Headers'
 end
 
 

@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "idiom" : "ipad",
+      "filename" : "mine_message_s_hd~ipad.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "mine_message_s_hd@2x~ipad.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "mine_message_s_hd@3x~ipad.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "mine_message_s_hd@2_3x~ipad.png",
+      "scale" : "720p"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

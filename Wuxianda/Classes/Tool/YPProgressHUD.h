@@ -12,6 +12,8 @@
 
 + (void)show;
 
++ (void)showWithMessage:(NSString *)message;
+
 + (void)dismiss;
 
 + (void)showError:(NSString *)errorInfo;

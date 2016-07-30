@@ -105,6 +105,13 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [YPApplication setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
+}
+
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];

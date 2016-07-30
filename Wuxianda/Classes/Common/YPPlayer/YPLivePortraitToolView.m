@@ -170,6 +170,8 @@
 {
     [super layoutSubviews];
     
+    [self.emitterLayer setHidden:YES];
+    
     if (self.height == YPScreenH) {
         // 开启来访动画
         [self.emitterLayer setHidden:NO];

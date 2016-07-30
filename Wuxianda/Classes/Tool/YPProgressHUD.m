@@ -21,6 +21,14 @@
     [SVProgressHUD show];
 }
 
++ (void)showWithMessage:(NSString *)message
+{
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD setDefaultAnimationType:SVProgressHUDAnimationTypeFlat];
+    [SVProgressHUD showWithStatus:message];
+}
+
 + (void)dismiss
 {
     [SVProgressHUD dismiss];

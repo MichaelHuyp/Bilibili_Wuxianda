@@ -1,6 +1,3 @@
-#import <pthread.h>
-
-
 #import "YPDataHandle.h"
 #import "YPRequestTool.h"
 #import "YYKit.h"
@@ -9,6 +6,7 @@
 #import "Masonry.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "YYFPSLabel.h"
+#import "UINavigationBar+Awesome.h"
 
 // RAC
 #import "ReactiveCocoa.h"
