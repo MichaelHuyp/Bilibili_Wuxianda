@@ -16,6 +16,8 @@
 以下是我打包的ijkplayer Framework 下载之后拖进项目，项目即可成功运行
 链接: http://pan.baidu.com/s/1gfmE5u7 密码: 6jta
 
+####当出现'某某头文件' file not found解决方案 -> [CocoaPods issues #4605](https://github.com/CocoaPods/CocoaPods/issues/4605) 或者将你的Pods版本回退到0.39.0版本
+
 
 ### 七月三十号更新：
 - 个人中心模块的搭建
