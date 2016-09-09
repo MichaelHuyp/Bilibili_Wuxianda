@@ -19,12 +19,11 @@ target 'Wuxianda' do
     pod 'SDAutoLayout'
     pod 'UITableView+FDTemplateLayoutCell'
     pod 'FDFullscreenPopGesture'
-    #pod 'GPUImage'
     pod 'KissXML'
     pod 'pop'
     pod 'AMTagListView'
     pod 'LTNavigationBar'
-    pod 'LFLiveKit'
+    pod 'LFLiveKit', '~> 1.9.3'
 end
 
 target 'WuxiandaTests' do

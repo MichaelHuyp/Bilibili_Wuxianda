@@ -10,7 +10,6 @@
 		4E2D8EC21CF03600003D7078 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2D8EC11CF03600003D7078 /* MessageUI.framework */; };
 		4E30321E1D4B370500836271 /* YPPhoneLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30321D1D4B370500836271 /* YPPhoneLivePreview.m */; };
 		4E3032201D4B371D00836271 /* YPPhoneLivePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E30321F1D4B371D00836271 /* YPPhoneLivePreview.xib */; };
-		4E6679171D2D311100EB4B1E /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6679041D2D311100EB4B1E /* IJKMediaFramework.framework */; };
 		4E87E1AD1D4C5440009B4531 /* YPProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E1A81D4C5440009B4531 /* YPProfileViewController.m */; };
 		4E87E1AE1D4C5440009B4531 /* YPProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E87E1A91D4C5440009B4531 /* YPProfileViewController.xib */; };
 		4E87E1B11D4C577C009B4531 /* YPProfileTypeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87E1B01D4C577C009B4531 /* YPProfileTypeButton.m */; };
@@ -34,6 +33,7 @@
 		4ED70F4F1D46727D000ABA78 /* YPLiveLandscapeToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED70F4E1D46727D000ABA78 /* YPLiveLandscapeToolView.m */; };
 		4ED70F511D4672A6000ABA78 /* YPLiveLandscapeToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED70F501D4672A6000ABA78 /* YPLiveLandscapeToolView.xib */; };
 		4EDA86851D4B1F9500097A49 /* YPPhoneLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDA86841D4B1F9500097A49 /* YPPhoneLiveViewController.m */; };
+		5F7F7DCF1D8280D000B1D3D2 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7F7DCE1D8280D000B1D3D2 /* IJKMediaFramework.framework */; };
 		8D45A4E74482064EA2927C77 /* Pods_WuxiandaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E916E74743D4A7A4AD66BDB4 /* Pods_WuxiandaTests.framework */; };
 		DA01C1931D3383D300742737 /* live_content.json in Resources */ = {isa = PBXBuildFile; fileRef = DA01C1921D3383D300742737 /* live_content.json */; };
 		DA01C1961D3386E900742737 /* YPLiveContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA01C1951D3386E900742737 /* YPLiveContentViewModel.m */; };
@@ -319,7 +319,6 @@
 		4E30321C1D4B370500836271 /* YPPhoneLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPPhoneLivePreview.h; sourceTree = "<group>"; };
 		4E30321D1D4B370500836271 /* YPPhoneLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPPhoneLivePreview.m; sourceTree = "<group>"; };
 		4E30321F1D4B371D00836271 /* YPPhoneLivePreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPPhoneLivePreview.xib; sourceTree = "<group>"; };
-		4E6679041D2D311100EB4B1E /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		4E87E1A71D4C5440009B4531 /* YPProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPProfileViewController.h; sourceTree = "<group>"; };
 		4E87E1A81D4C5440009B4531 /* YPProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPProfileViewController.m; sourceTree = "<group>"; };
 		4E87E1A91D4C5440009B4531 /* YPProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPProfileViewController.xib; sourceTree = "<group>"; };
@@ -353,6 +352,7 @@
 		4ED70F501D4672A6000ABA78 /* YPLiveLandscapeToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YPLiveLandscapeToolView.xib; sourceTree = "<group>"; };
 		4EDA86831D4B1F9500097A49 /* YPPhoneLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPPhoneLiveViewController.h; sourceTree = "<group>"; };
 		4EDA86841D4B1F9500097A49 /* YPPhoneLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPPhoneLiveViewController.m; sourceTree = "<group>"; };
+		5F7F7DCE1D8280D000B1D3D2 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		6D227563934CAB74180B2655 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BCA69403F46E8B458BA584 /* Pods-Wuxianda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wuxianda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wuxianda/Pods-Wuxianda.debug.xcconfig"; sourceTree = "<group>"; };
 		791D1D70243482EE025B00A3 /* Pods-Wuxianda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wuxianda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wuxianda/Pods-Wuxianda.release.xcconfig"; sourceTree = "<group>"; };
@@ -808,6 +808,7 @@
 			files = (
 				DA3E5FDE1D2A123E00B099CC /* libc++.tbd in Frameworks */,
 				DA84912A1CF29F0200FC45E6 /* WebKit.framework in Frameworks */,
+				5F7F7DCF1D8280D000B1D3D2 /* IJKMediaFramework.framework in Frameworks */,
 				4E2D8EC21CF03600003D7078 /* MessageUI.framework in Frameworks */,
 				4E8BFA381CE85BFF001380D2 /* VideoToolbox.framework in Frameworks */,
 				4E8BFA361CE85BF0001380D2 /* QuartzCore.framework in Frameworks */,
@@ -820,7 +821,6 @@
 				DAF2555F1CD34A9000A5E2C6 /* AudioToolbox.framework in Frameworks */,
 				4E8BFA2B1CE85B99001380D2 /* libbz2.tbd in Frameworks */,
 				4E8BFA291CE85B7D001380D2 /* libz.tbd in Frameworks */,
-				4E6679171D2D311100EB4B1E /* IJKMediaFramework.framework in Frameworks */,
 				DAF2556E1CD34AD600A5E2C6 /* libstdc++.6.0.9.tbd in Frameworks */,
 				DAF2556C1CD34ACE00A5E2C6 /* SystemConfiguration.framework in Frameworks */,
 				DAF2556B1CD34AC800A5E2C6 /* AVFoundation.framework in Frameworks */,
@@ -955,6 +955,14 @@
 				4E30321F1D4B371D00836271 /* YPPhoneLivePreview.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		5F7F7DCD1D8280B500B1D3D2 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F7F7DCE1D8280D000B1D3D2 /* IJKMediaFramework.framework */,
+			);
+			path = frameworks;
 			sourceTree = "<group>";
 		};
 		DA01C1911D3383CD00742737 /* live */ = {
@@ -1817,14 +1825,6 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
-		DA3E5FE31D2A138400B099CC /* frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4E6679041D2D311100EB4B1E /* IJKMediaFramework.framework */,
-			);
-			path = frameworks;
-			sourceTree = "<group>";
-		};
 		DA4340CC1D3CA3E60074FD2D /* Sub */ = {
 			isa = PBXGroup;
 			children = (
@@ -2060,7 +2060,7 @@
 				DAFCBB631C50C58A000D44D8 /* YPConst.m */,
 				DAFCBB1F1C50AAFA000D44D8 /* AppDelegate.h */,
 				DAFCBB201C50AAFA000D44D8 /* AppDelegate.m */,
-				DA3E5FE31D2A138400B099CC /* frameworks */,
+				5F7F7DCD1D8280B500B1D3D2 /* frameworks */,
 				DA60E3A81CF81DFB009932E1 /* Resources */,
 				DAFCBB501C50ACCD000D44D8 /* Classes */,
 				DAFCBB1C1C50AAFA000D44D8 /* Supporting Files */,
@@ -2216,7 +2216,7 @@
 				TargetAttributes = {
 					DAFCBB181C50AAFA000D44D8 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = QFPBDT5J32;
+						DevelopmentTeam = 5WZC4MU433;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2800,6 +2800,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71BCA69403F46E8B458BA584 /* Pods-Wuxianda.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -2830,6 +2831,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 791D1D70243482EE025B00A3 /* Pods-Wuxianda.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_OBJC_WEAK = YES;

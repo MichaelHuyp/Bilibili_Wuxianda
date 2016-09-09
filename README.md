@@ -5,8 +5,6 @@
 
 [![Codewake](https://www.codewake.com/badges/ask_question.svg)](https://www.codewake.com/p/bilibili_wuxianda)
 
-<font color=red size=4>PS：最近换工作面试中... 等工作稳定下来 将继续更新此项目 []~(￣▽￣)~*</font>
-
 ####目前完成了如下功能：
 
 - 启动页的业务逻辑
